@@ -1,11 +1,11 @@
 #Starting the journey of the Python
-""" 1.
-In python we doesn't have to declare the variable, it itself defined or will know its its data types
-"""
-#This is a single line comment 
-"""2.
-This is multiline comment
 
+#In python we doesn't have to declare the variable, it itself defined or will know its its data types
+
+#This is a single line comment 
+"""
+This is multiline comment
+"""
 
 #First program to print your name or the most famous dialogue in Programming terms
 print("Hello! World")
@@ -18,8 +18,7 @@ print("Hi, I am ___________")
 #Program to take input from user and print that 
 ask=input("Enter anything you like: ")
 print("You have entered: ",ask)
-"""
-""" 3.
+
 #This program adds two numbers
 num1=int(input("Enter 1st number: "))
 num2=int(input("Enter 2nd number: "))
@@ -30,14 +29,13 @@ sum = num1 + num2
 #Display the sum 
 print("The sum of {0} and {1} is {2}".format(num1,num2,sum))
 #You can choose between any arithmetic opertaion in this format , you just have to switch in between the signs
-"""
-""" 4.
-For addition: +
+
+"""For addition: +
 For subtraction: -
 For multiplication: *
 For division: /
 """
-"""
+
 #Program for the arithmetic operations
 
 num1=int(input("Enter 1st number: "))
@@ -59,9 +57,9 @@ print("The division of {0} and {1} is {2}".format(num1,num2,division))
 print("The modulus of {0} and {1} is {2}".format(num1,num2,modulo))
 print("The exponentiation of {0} and {1} is {2}".format(num1,num2,exponent))
 print("The floor_division of {0} and {1} is {2}".format(num1,num2,floor_division))
-"""
+
 #Program for the comparison operator
-"""
+
 The comparison operator includes: 
 Equals to: ==
 Not equals to: !=
@@ -69,7 +67,7 @@ Greater than: >
 Less than: <
 Greater than or equal to: >=
 Less than or equal to: <=
-"""
+
 num1=int(input("Enter 1st number: "))
 num2=int(input("Enter 2nd number: "))
 
@@ -88,4 +86,4 @@ if(num1>=num2):
     print("{0} is greater than or equals to {1}". format(num1,num2))
 elif(num1<=num2):
     print("{1} is greater than or equals to {0}". format(num2,num1))
-#. is used to end the program 
+# (. dot) is used to end the program 
